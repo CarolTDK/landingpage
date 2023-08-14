@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Edu SA Beginner", cursive;
+}
+
+header {
+  background-color: rgba(6, 88, 13, 0.712);
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+ul li {
+  margin-left: 2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  background-image: url(imgs/pexels-gül-işık-2305761.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+main h1 {
+  font-size: 6rem;
+}
+
+main p {
+  font-size: 3rem;
+}
+
+button {
+  padding: 2rem;
+  background: rgba(42, 88, 46, 0.87);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+.locaciones {
+  background-image: url(imgs/pexels-porapak-apichodilok-354103.jpg);
+  min-height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(11, 65, 11);
+  font-size: xx-large;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.benefits {
+  background-color: rgba(6, 88, 13, 0.712);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.card {
+  display: flex;
+  flex: 0 1 300px;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+.card-icon {
+  text-align: center;
+}
+
+.card-icon h4 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 2rem;
+}
+.card-icon i {
+  font-size: 4rem;
+  color: white;
+  background-color: rgba(6, 88, 13, 0.712);
+  min-height: 3rem;
+  padding: 2rem 6rem;
+}
+
+.contacto {
+  background-color: gray;
+  padding-top: 3rem;
+}
+h4 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+form {
+  background-image: url(imgs/pexels-vojta-kovařík-3243090.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70vh;
+}
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(11, 65, 11);
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 4rem 6rem;
+}
+input {
+  height: 2.5rem;
+  width: 20rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(6, 88, 13, 0.712);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
