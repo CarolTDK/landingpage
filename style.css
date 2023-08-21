@@ -6,7 +6,6 @@
 }
 
 header {
-  background-color: rgba(6, 88, 13, 0.712);
   font-size: 1.5rem;
 }
 
@@ -14,6 +13,11 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 1.5rem;
+  position: fixed;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgba(6, 88, 13, 0.712);
+  width: 100%;
 }
 
 ul {
@@ -33,12 +37,12 @@ a {
 }
 
 main {
-  background-image: url(imgs/pexels-gül-işık-2305761.jpg);
+  background-image: url(img/pexels-porapak-apichodilok-354103.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 80vh;
-  color: white;
+  color: rgba(6, 88, 13, 0.712);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -57,7 +61,7 @@ main p {
 button {
   padding: 2rem;
   background: rgba(42, 88, 46, 0.87);
-  color: white;
+  color: rgb(11, 65, 11);
   font-size: 1.5rem;
   font-weight: 600;
   border: none;
@@ -65,13 +69,15 @@ button {
   margin-top: 1.5rem;
 }
 .locaciones {
-  background-image: url(imgs/pexels-porapak-apichodilok-354103.jpg);
+  background-image: url("https://picsum.photos/id/684/600/400?blur=2");
+  margin-top: 1.5rem;
   min-height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(11, 65, 11);
-  font-size: xx-large;
+  color: white;
+  text-shadow: gray;
+  font-size: 3rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -119,7 +125,8 @@ button {
 }
 
 .contacto {
-  background-color: gray;
+  background-color: rgba(6, 88, 13, 0.712);
+  color: white;
   padding-top: 3rem;
 }
 h4 {
@@ -128,7 +135,7 @@ h4 {
   padding-bottom: 1rem;
 }
 form {
-  background-image: url(imgs/pexels-vojta-kovařík-3243090.jpg);
+  background-image: url(img/pexels-vojta-kovařík-3243090.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
